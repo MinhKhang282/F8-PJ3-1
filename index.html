@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="./src/output.css" rel="stylesheet" />
+        <title>Agency</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header
+            class="lg:py-4 py-6 fixed w-full top-0 z-40 bg-[var(--color-main)]"
+        >
+            <div class="container">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <a href="#!">
+                            <img
+                                class="object-cover"
+                                src="./src/images/Logo.svg"
+                                alt=""
+                            />
+                        </a>
+                    </div>
+
+                    <nav class="flex items-center gap-[88px]">
+                        <ul
+                            class="lg:flex hidden text-[18px] font-medium gap-[38px]"
+                        >
+                            <li>
+                                <a
+                                    class="relative text-[var(--color-text-heading)]"
+                                    href="#!"
+                                >
+                                    Home
+                                    <span
+                                        class="absolute -top-2 left-1/2 -translate-x-1/2 w-[10px] h-[10px] bg-[var(--color-button)] rounded-full"
+                                    ></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#!"
+                                    class="text-[var(--color-text-desc)] relative after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] hover:after:scale-x-100 after:scale-x-0 after:bg-black after:transition-all after:duration-300"
+                                    >About</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="#!"
+                                    class="text-[var(--color-text-desc)] relative after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] hover:after:scale-x-100 after:scale-x-0 after:bg-black after:transition-all after:duration-300"
+                                    >Pages</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="#!"
+                                    class="text-[var(--color-text-desc)] relative after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] hover:after:scale-x-100 after:scale-x-0 after:bg-black after:transition-all after:duration-300"
+                                    >Blog</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="#!"
+                                    class="text-[var(--color-text-desc)] relative after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] hover:after:scale-x-100 after:scale-x-0 after:bg-black after:transition-all after:duration-300"
+                                    >Contact</a
+                                >
+                            </li>
+                        </ul>
+                        <div>
+                            <button class="btn">Sign Up</button>
+                        </div>
+                    </nav>
+                </div>
+                <div class="relative mt-[13px] h-[1px] bg-linear">
+                    <div
+                        class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[16px] h-[2px] bg-[var(--color-button)]"
+                    ></div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="mt-[180px]">
+                <div class="container">
+                    <div class="min-[1010px]:flex justify-between">
+                        <div
+                            class="pt-[43px] min-[1010px]:w-[36%] max-[1010px]:text-center"
+                        >
+                            <h1
+                                class="w-[368px] max-[1010px]:w-full text-[50px] font-extrabold leading-[60px] text-[var(--color-text-heading)]"
+                            >
+                                We’re a creative design agency.
+                            </h1>
+                            <p
+                                class="mt-[20px] text-[18px] font-medium leading-[28px] text-[var(--color-text-desc)]"
+                            >
+                                A brilliant, modular agency template for
+                                startup’s build yours toady.
+                            </p>
+                            <div
+                                class="mt-[42px] flex gap-[36px] max-[1010px]:justify-center"
+                            >
+                                <div>
+                                    <button class="btn">Get in touch</button>
+                                </div>
+
+                                <div class="flex items-center gap-[15px]">
+                                    <div
+                                        class="flex items-center justify-center w-[44px] h-[44px] max-lg:w-[38px] max-lg:h-[38px] rounded-full bg-[#83A17D] outline-[4px] outline-[#143C3C] outline-offset-4"
+                                    >
+                                        <img
+                                            src="./src/images/play.svg"
+                                            alt="play"
+                                        />
+                                    </div>
+                                    <p
+                                        class="font-(family-name:--font-family-primary) text-[18px] max-lg:text-[15px] font-semi leading-[30px] text-[var(--color-text-heading)]"
+                                    >
+                                        Watch Video
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="min-[1010px]:w-[60%] max-[1010px]:h-[543px] min-[1010px]:relative max-[1010px]:relative max-[1010px]:mt-[100px]"
+                        >
+                            <div
+                                class="min-[1010px]:absolute max-[1010px]:absolute min-[1010px]:left-1/2 min-[1010px]:-translate-x-1/2 min-[1010px]:top-[150px] top-0 rounded-full bg-[#4DBB9A] w-[340px] h-[340px] filter blur-[137px]"
+                            ></div>
+                            <img
+                                class="min-[1010px]:absolute max-[1010px]:absolute max-[1010px]:left-15 max-[1010px]:-top-15 z-20 min-[1010px]:-top-10 min-[1010px]:-left-40"
+                                src="./src/images/twisted line-1.svg"
+                                alt="twisted-1"
+                            />
+                            <img
+                                class="min-[1010px]:absolute min-[1010px]:-bottom-50 min-[1010px]:left-5 max-[1010px]:absolute max-[1010px]:right-20 max-[1010px]:-bottom-10 z-20"
+                                src="./src/images/twisted line-2.svg"
+                                alt="twisted-2"
+                            />
+                            <img
+                                class="min-[1010px]:absolute max-[1010px]:absolute max-[1010px]:-top-15 max-[1010px]:left-4 min-[1010px]:-left-52 min-[1010px]:-top-10"
+                                src="./src/images/extra avstract.svg"
+                                alt="extra-avstract-1"
+                            />
+                            <img
+                                class="min-[1010px]:absolute min-[1010px]:right-7 min-[1010px]:-bottom-45 max-[1010px]:absolute max-[1010px]:right-9 max-[1010px]:-bottom-5"
+                                src="./src/images/extra avstract.svg"
+                                alt="extra-avstract-2"
+                            />
+                            <img
+                                class="min-[1010px]:absolute min-[1010px]:left-0 max-[1010px]:absolute max-[1010px]:left-10 w-[202px] h-[466px] object-cover rounded-[110px] z-10"
+                                src="./src/images/img-1.png"
+                                alt="img-1"
+                            />
+                            <img
+                                class="min-[1010px]:absolute min-[1010px]:left-1/2 min-[1010px]:-translate-x-1/2 min-[1010px]:top-[77px] max-[1010px]:absolute max-[1010px]:left-1/2 max-[1010px]:-translate-x-1/2 w-[202px] h-[466px] object-cover rounded-[110px]"
+                                src="./src/images/img-2.png"
+                                alt="img-2"
+                            />
+                            <img
+                                class="min-[1010px]:absolute min-[1010px]:right-0 max-[1010px]:absolute max-[1010px]:right-10 w-[202px] h-[466px] object-cover rounded-[110px] z-10"
+                                src="./src/images/img-3.png"
+                                alt="img-3"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
+<!-- font-(family-name:--font-family-primary) -->
