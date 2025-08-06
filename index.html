@@ -14,9 +14,7 @@
         />
     </head>
     <body>
-        <header
-            class="lg:py-4 py-6 fixed w-full top-0 z-40 bg-[var(--color-main)]"
-        >
+        <header>
             <div class="container">
                 <div class="flex items-center justify-between">
                     <div>
@@ -86,11 +84,11 @@
             </div>
         </header>
         <main>
-            <section class="mt-[180px]">
+            <!-- <section>
                 <div class="container">
                     <div class="min-[1010px]:flex justify-between">
                         <div
-                            class="pt-[43px] min-[1010px]:w-[36%] max-[1010px]:text-center"
+                            class="min-[1010px]:w-[36%] max-[1010px]:text-center"
                         >
                             <h1
                                 class="w-[368px] max-[1010px]:w-full text-[50px] font-extrabold leading-[60px] text-[var(--color-text-heading)]"
@@ -104,13 +102,15 @@
                                 startup’s build yours toady.
                             </p>
                             <div
-                                class="mt-[42px] flex gap-[36px] max-[1010px]:justify-center"
+                                class="mt-[42px] min-[1010px]:flex gap-[36px] max-[1010px]:justify-center"
                             >
                                 <div>
                                     <button class="btn">Get in touch</button>
                                 </div>
 
-                                <div class="flex items-center gap-[15px]">
+                                <div
+                                    class="flex items-center gap-[15px] max-[1010px]:justify-center max-[1010px]:mt-[30px]"
+                                >
                                     <div
                                         class="flex items-center justify-center w-[44px] h-[44px] max-lg:w-[38px] max-lg:h-[38px] rounded-full bg-[#83A17D] outline-[4px] outline-[#143C3C] outline-offset-4"
                                     >
@@ -135,12 +135,12 @@
                                 class="min-[1010px]:absolute max-[1010px]:absolute min-[1010px]:left-1/2 min-[1010px]:-translate-x-1/2 min-[1010px]:top-[150px] top-0 rounded-full bg-[#4DBB9A] w-[340px] h-[340px] filter blur-[137px]"
                             ></div>
                             <img
-                                class="min-[1010px]:absolute max-[1010px]:absolute max-[1010px]:left-15 max-[1010px]:-top-15 z-20 min-[1010px]:-top-10 min-[1010px]:-left-40"
+                                class="min-[1010px]:absolute max-[1010px]:absolute max-[1010px]:left-1/2 max-[1010px]:-translate-x-1/2 z-20 min-[1010px]:-top-10 min-[1010px]:-left-40"
                                 src="./src/images/twisted line-1.svg"
                                 alt="twisted-1"
                             />
                             <img
-                                class="min-[1010px]:absolute min-[1010px]:-bottom-50 min-[1010px]:left-5 max-[1010px]:absolute max-[1010px]:right-20 max-[1010px]:-bottom-10 z-20"
+                                class="min-[1010px]:absolute min-[1010px]:-bottom-50 min-[1010px]:left-5 max-[1010px]:absolute max-[1010px]:left-1/2 max-[1010px]:-translate-x-1/2 max-[1010px]:bottom-0 z-20"
                                 src="./src/images/twisted line-2.svg"
                                 alt="twisted-2"
                             />
@@ -150,7 +150,7 @@
                                 alt="extra-avstract-1"
                             />
                             <img
-                                class="min-[1010px]:absolute min-[1010px]:right-7 min-[1010px]:-bottom-45 max-[1010px]:absolute max-[1010px]:right-9 max-[1010px]:-bottom-5"
+                                class="min-[1010px]:absolute min-[1010px]:right-7 min-[1010px]:-bottom-45 max-[1010px]:absolute max-[1010px]:right-9 max-[1010px]:bottom-0 z-30"
                                 src="./src/images/extra avstract.svg"
                                 alt="extra-avstract-2"
                             />
@@ -166,6 +166,96 @@
                             />
                             <img
                                 class="min-[1010px]:absolute min-[1010px]:right-0 max-[1010px]:absolute max-[1010px]:right-10 w-[202px] h-[466px] object-cover rounded-[110px] z-10"
+                                src="./src/images/img-3.png"
+                                alt="img-3"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+
+            <section class="pt-[100px]">
+                <div class="container">
+                    <div
+                        class="lg:flex justify-between items-center space-y-30 lg:space-y-0 max-lg:text-center max-sm:space-y-20"
+                    >
+                        <div class="lg:w-[36%]">
+                            <h1
+                                class="lg:w-[368px] l text-[50px] font-extrabold leading-[60px] text-[var(--color-text-heading)]"
+                            >
+                                We’re a creative design agency.
+                            </h1>
+                            <p
+                                class="mt-[20px] text-[18px] font-medium leading-[28px] text-[var(--color-text-desc)]"
+                            >
+                                A brilliant, modular agency template for
+                                startup’s build yours toady.
+                            </p>
+                            <div
+                                class="mt-[42px] sm:flex gap-[36px] max-lg:justify-center space-y-10 sm:space-y-0"
+                            >
+                                <div>
+                                    <button class="btn">Get in touch</button>
+                                </div>
+
+                                <div
+                                    class="flex items-center gap-[15px] max-sm:justify-center"
+                                >
+                                    <div
+                                        class="flex items-center justify-center w-[44px] h-[44px] rounded-full bg-[#83A17D] outline-[4px] outline-[#143C3C] outline-offset-4"
+                                    >
+                                        <img
+                                            src="./src/images/play.svg"
+                                            alt="play"
+                                        />
+                                    </div>
+                                    <p
+                                        class="font-(family-name:--font-family-primary) text-[18px] max-lg:text-[15px] font-semi leading-[30px] text-[var(--color-text-heading)]"
+                                    >
+                                        Watch Video
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="relative lg:w-[60%] flex gap-[20px] max-lg:justify-center"
+                        >
+                            <div
+                                class="absolute left-1/2 -translate-x-1/2 top-[120px] rounded-full bg-[#4DBB9A] w-[340px] h-[340px] max-sm:w-[240px] max-sm:h-[240px] max-sm:top-0 filter blur-[137px] -z-10"
+                            ></div>
+                            <img
+                                class="absolute -left-45 -top-10 max-lg:left-20 max-md:w-[380px] max-md:left-40 max-md:-top-15 max-sm:w-[151px] max-sm:h-[100px] max-sm:left-15 max-sm:-top-5 object-cover"
+                                src="./src/images/twisted line-1.svg"
+                                alt="twisted-1"
+                            />
+                            <img
+                                class="absolute right-20 -bottom-15 max-lg:-bottom-10 max-lg:right-30 max-md:w-[380px] max-md:right-40 max-sm:w-[151px] max-sm:h-[100px] max-sm:right-20 max-sm:bottom-3 object-cover"
+                                src="./src/images/twisted line-2.svg"
+                                alt="twisted-2"
+                            />
+                            <img
+                                class="absolute -left-56 -top-10 max-lg:left-9 max-md:w-[50px] max-md:left-35 max-sm:w-[20px] max-sm:left-13 max-sm:-top-4 object-cover"
+                                src="./src/images/extra avstract.svg"
+                                alt="extra-avstract-1"
+                            />
+                            <img
+                                class="absolute right-9 -bottom-10 max-lg:right-19 max-lg:-bottom-5 max-md:w-[50px] max-md:right-33 max-sm:w-[20px] max-sm:right-17 max-sm:bottom-7 object-cover"
+                                src="./src/images/extra avstract.svg"
+                                alt="extra-avstract-2"
+                            />
+                            <img
+                                class="w-[202px] h-[466px] max-md:w-[150px] max-md:h-[400px] max-sm:w-[85px] max-sm:h-[196px] object-cover rounded-[110px]"
+                                src="./src/images/img-1.png"
+                                alt="img-1"
+                            />
+                            <img
+                                class="mt-[77px] max-sm:mt-[35px] w-[202px] h-[466px] max-md:w-[150px] max-md:h-[400px] max-sm:w-[85px] max-sm:h-[196px] object-cover rounded-[110px]"
+                                src="./src/images/img-2.png"
+                                alt="img-2"
+                            />
+                            <img
+                                class="w-[202px] h-[466px] max-md:w-[150px] max-md:h-[400px] max-sm:w-[85px] max-sm:h-[196px] object-cover rounded-[110px]"
                                 src="./src/images/img-3.png"
                                 alt="img-3"
                             />
