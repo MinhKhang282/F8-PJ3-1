@@ -98,4 +98,16 @@
             rgba(212, 212, 212, 0) 99.68%
         );
     }
+
+    .bg-linear-1 {
+        background: linear-gradient(
+            180deg,
+            #83a17d 4.17%,
+            rgba(131, 161, 125, 0) 36.46%
+        );
+    }
+
+    .bg-linear-2 {
+        background: rgba(0, 0, 0, 0.7);
+    }
 }
