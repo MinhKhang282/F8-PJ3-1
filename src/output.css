@@ -7,6 +7,7 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-amber-300: oklch(87.9% 0.169 91.605);
     --color-gray-400: oklch(70.7% 0.022 261.325);
     --color-black: #000;
     --spacing: 0.25rem;
@@ -195,14 +196,8 @@
   .-top-10 {
     top: calc(var(--spacing) * -10);
   }
-  .-top-15 {
-    top: calc(var(--spacing) * -15);
-  }
   .-top-20 {
     top: calc(var(--spacing) * -20);
-  }
-  .-top-30 {
-    top: calc(var(--spacing) * -30);
   }
   .-top-32 {
     top: calc(var(--spacing) * -32);
@@ -222,26 +217,8 @@
   .-right-10 {
     right: calc(var(--spacing) * -10);
   }
-  .-right-15 {
-    right: calc(var(--spacing) * -15);
-  }
-  .-right-17 {
-    right: calc(var(--spacing) * -17);
-  }
-  .-right-20 {
-    right: calc(var(--spacing) * -20);
-  }
-  .-right-35 {
-    right: calc(var(--spacing) * -35);
-  }
   .-right-37 {
     right: calc(var(--spacing) * -37);
-  }
-  .-right-40 {
-    right: calc(var(--spacing) * -40);
-  }
-  .-right-45 {
-    right: calc(var(--spacing) * -45);
   }
   .right-0 {
     right: calc(var(--spacing) * 0);
@@ -664,6 +641,9 @@
   }
   .bg-\[var\(--color-primary\)\] {
     background-color: var(--color-primary);
+  }
+  .bg-amber-300 {
+    background-color: var(--color-amber-300);
   }
   .bg-gray-400 {
     background-color: var(--color-gray-400);
@@ -1182,34 +1162,9 @@
       gap: 20px;
     }
   }
-  .max-md\:gap-\[30px\] {
-    @media (width < 48rem) {
-      gap: 30px;
-    }
-  }
-  .max-md\:gap-\[40px\] {
-    @media (width < 48rem) {
-      gap: 40px;
-    }
-  }
   .max-md\:rounded-\[30px\] {
     @media (width < 48rem) {
       border-radius: 30px;
-    }
-  }
-  .max-md\:text-\[10px\] {
-    @media (width < 48rem) {
-      font-size: 10px;
-    }
-  }
-  .max-md\:text-\[12px\] {
-    @media (width < 48rem) {
-      font-size: 12px;
-    }
-  }
-  .max-md\:text-\[13px\] {
-    @media (width < 48rem) {
-      font-size: 13px;
     }
   }
   .max-md\:text-\[14px\] {
@@ -1232,21 +1187,6 @@
       top: calc(var(--spacing) * -5);
     }
   }
-  .max-sm\:-top-10 {
-    @media (width < 40rem) {
-      top: calc(var(--spacing) * -10);
-    }
-  }
-  .max-sm\:-top-15 {
-    @media (width < 40rem) {
-      top: calc(var(--spacing) * -15);
-    }
-  }
-  .max-sm\:-top-19 {
-    @media (width < 40rem) {
-      top: calc(var(--spacing) * -19);
-    }
-  }
   .max-sm\:-top-20 {
     @media (width < 40rem) {
       top: calc(var(--spacing) * -20);
@@ -1255,26 +1195,6 @@
   .max-sm\:-top-23 {
     @media (width < 40rem) {
       top: calc(var(--spacing) * -23);
-    }
-  }
-  .max-sm\:-top-25 {
-    @media (width < 40rem) {
-      top: calc(var(--spacing) * -25);
-    }
-  }
-  .max-sm\:-top-27 {
-    @media (width < 40rem) {
-      top: calc(var(--spacing) * -27);
-    }
-  }
-  .max-sm\:-top-29 {
-    @media (width < 40rem) {
-      top: calc(var(--spacing) * -29);
-    }
-  }
-  .max-sm\:-top-30 {
-    @media (width < 40rem) {
-      top: calc(var(--spacing) * -30);
     }
   }
   .max-sm\:top-0 {
@@ -1292,44 +1212,9 @@
       top: calc(var(--spacing) * 15);
     }
   }
-  .max-sm\:-right-20 {
-    @media (width < 40rem) {
-      right: calc(var(--spacing) * -20);
-    }
-  }
-  .max-sm\:-right-25 {
-    @media (width < 40rem) {
-      right: calc(var(--spacing) * -25);
-    }
-  }
-  .max-sm\:-right-30 {
-    @media (width < 40rem) {
-      right: calc(var(--spacing) * -30);
-    }
-  }
-  .max-sm\:-right-50 {
-    @media (width < 40rem) {
-      right: calc(var(--spacing) * -50);
-    }
-  }
-  .max-sm\:right-0 {
-    @media (width < 40rem) {
-      right: calc(var(--spacing) * 0);
-    }
-  }
-  .max-sm\:right-9 {
-    @media (width < 40rem) {
-      right: calc(var(--spacing) * 9);
-    }
-  }
   .max-sm\:right-10 {
     @media (width < 40rem) {
       right: calc(var(--spacing) * 10);
-    }
-  }
-  .max-sm\:right-11 {
-    @media (width < 40rem) {
-      right: calc(var(--spacing) * 11);
     }
   }
   .max-sm\:right-17 {
@@ -1342,34 +1227,14 @@
       right: calc(var(--spacing) * 20);
     }
   }
-  .max-sm\:right-30 {
-    @media (width < 40rem) {
-      right: calc(var(--spacing) * 30);
-    }
-  }
   .max-sm\:right-32 {
     @media (width < 40rem) {
       right: calc(var(--spacing) * 32);
     }
   }
-  .max-sm\:right-38 {
-    @media (width < 40rem) {
-      right: calc(var(--spacing) * 38);
-    }
-  }
-  .max-sm\:right-40 {
-    @media (width < 40rem) {
-      right: calc(var(--spacing) * 40);
-    }
-  }
   .max-sm\:right-48 {
     @media (width < 40rem) {
       right: calc(var(--spacing) * 48);
-    }
-  }
-  .max-sm\:right-50 {
-    @media (width < 40rem) {
-      right: calc(var(--spacing) * 50);
     }
   }
   .max-sm\:-bottom-10 {
@@ -1462,11 +1327,6 @@
       height: 257px;
     }
   }
-  .max-sm\:h-\[544px\] {
-    @media (width < 40rem) {
-      height: 544px;
-    }
-  }
   .max-sm\:w-\[20px\] {
     @media (width < 40rem) {
       width: 20px;
@@ -1532,6 +1392,16 @@
       justify-content: center;
     }
   }
+  .max-sm\:gap-\[35px\] {
+    @media (width < 40rem) {
+      gap: 35px;
+    }
+  }
+  .max-sm\:gap-\[40px\] {
+    @media (width < 40rem) {
+      gap: 40px;
+    }
+  }
   .max-sm\:gap-\[45px\] {
     @media (width < 40rem) {
       gap: 45px;
@@ -1540,6 +1410,11 @@
   .max-sm\:gap-\[50px\] {
     @media (width < 40rem) {
       gap: 50px;
+    }
+  }
+  .max-sm\:gap-\[55px\] {
+    @media (width < 40rem) {
+      gap: 55px;
     }
   }
   .max-sm\:gap-\[60px\] {
@@ -1586,6 +1461,16 @@
       font-size: 14px;
     }
   }
+  .max-sm\:text-\[18px\] {
+    @media (width < 40rem) {
+      font-size: 18px;
+    }
+  }
+  .max-sm\:text-\[20px\] {
+    @media (width < 40rem) {
+      font-size: 20px;
+    }
+  }
   .max-sm\:text-\[26px\] {
     @media (width < 40rem) {
       font-size: 26px;
@@ -1594,6 +1479,11 @@
   .max-sm\:text-\[30px\] {
     @media (width < 40rem) {
       font-size: 30px;
+    }
+  }
+  .max-sm\:text-\[38px\] {
+    @media (width < 40rem) {
+      font-size: 38px;
     }
   }
   .max-sm\:leading-\[20px\] {
