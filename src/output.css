@@ -1532,6 +1532,21 @@
       justify-content: center;
     }
   }
+  .max-sm\:gap-\[45px\] {
+    @media (width < 40rem) {
+      gap: 45px;
+    }
+  }
+  .max-sm\:gap-\[50px\] {
+    @media (width < 40rem) {
+      gap: 50px;
+    }
+  }
+  .max-sm\:gap-\[60px\] {
+    @media (width < 40rem) {
+      gap: 60px;
+    }
+  }
   .max-sm\:space-y-20 {
     @media (width < 40rem) {
       :where(& > :not(:last-child)) {
